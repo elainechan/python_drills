@@ -34,4 +34,3 @@ class LinkedList(list):
 #
 #    def __delitem__(self):
 #        pass
-
