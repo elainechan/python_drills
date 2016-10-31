@@ -19,6 +19,7 @@ class Node:
 class LinkedList(list):
 	
     def __init__(self, next_node):
+        self.list = LinkedList()
         self.next_node = next_node
 
     def append(self, item):
@@ -35,4 +36,3 @@ class LinkedList(list):
 #
 #    def __delitem__(self):
 #        pass
-
